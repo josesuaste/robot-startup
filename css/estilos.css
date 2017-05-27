@@ -41,7 +41,7 @@ body {
       flex-wrap: wrap; }
 
 .encabezado .logo img {
-  width: 100px;
+  width: 50px;
   height: auto; }
 
 /*Estilos para el boton: buscar y menu*/
@@ -89,7 +89,7 @@ body {
           flex: 1 1 auto;
   border: 0;
   border-radius: 0 5px 5px 0;
-  background: #12AFAF;
+  background: #0275d8;
   color: #fff;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 auto;
@@ -117,6 +117,22 @@ body {
 
 #menu-principal ul a:hover,
 #menu-principal ul li.active a {
-  color: #12AFAF; }
+  color: #0275d8; }
+
+.texto-encabezado .display-4 {
+  margin-top: 4rem; }
+
+.btn-primary {
+  color: black;
+  background-color: #fff;
+  border-color: #0275d8;
+  margin-top: 1rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+
+.btn-primary:hover
+.btn-primary:focus,
+.btn-primary:active:hover {
+  background-color: #009500; }
 
 /*# sourceMappingURL=estilos.css.map */

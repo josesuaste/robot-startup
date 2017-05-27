@@ -2,7 +2,7 @@
 // ESQUEMA DE COLORES
 //-----------------------
 $texto:#111111;
-$principal:#12AFAF;
+$principal:#0275d8;
 $secundario:#009500;
 html {
     font-size: 15px;
@@ -36,7 +36,7 @@ body {
     flex-wrap: wrap;
 }
 .encabezado .logo img {
-    width: 100px;
+    width: 50px;
     height: auto;
 }
 /*Estilos para el boton: buscar y menu*/
@@ -103,4 +103,19 @@ body {
 #menu-principal ul a:hover,
 #menu-principal ul li.active a {
     color: $principal;
+}
+.texto-encabezado .display-4{
+  margin-top: 4rem;
+}
+.btn-primary{
+  color: black;
+  background-color: #fff;
+  border-color: $principal;
+  margin-top: 1rem;
+  transition: all .5s ease;
+}
+.btn-primary:hover
+.btn-primary:focus,
+.btn-primary:active:hover{
+  background-color: $secundario;
 }
