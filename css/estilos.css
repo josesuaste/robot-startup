@@ -1,0 +1,21 @@
+html {
+  font-size: 15px; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #111111; }
+
+.encabezado {
+  background: #111111;
+  color: #fff;
+  padding: .5rem 0; }
+
+.encabezado .container {
+  display: flex;
+  align-items: center; }
+
+.encabezado .logo img {
+  width: 150px;
+  height: auto; }
+
+/*# sourceMappingURL=estilos.css.map */
