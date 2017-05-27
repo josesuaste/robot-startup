@@ -6,54 +6,65 @@
         <!--Favicon-->
           <link rel="shortcut icon" href="images/planet.png" tyspe="image/x-icon"/>
           <!--google fonts-->
-            <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i" rel="stylesheet" type="text/css">
              <!--Metaviewport-->
+             <!--font awesome-->
+              <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
                  <meta http-equiv="x-ua-compatible" content="ie-edge">
-                  <!--carga de archivos css-->
+                  <!--bootstrap-->
                     <link rel="stylesheet" href="css/bootstrap.css">
-                      <link rel="stylesheet" href="css/estilos.css">
+                      <!--estilos css-->
+                        <link rel="stylesheet" href="css/estilos.css">
 
 
   </head>
   <body>
     <section class="bienvenidos">
 
-      <header class="encabezado navbar fixed-top"  role="banner">
-        <div class="container">
+      <header class="encabezado navbar-fixed-topx" role="banner" id="encabezado">
+          <div class="container">
+              <a href="index.html" class="logo">
+                  <img src="images/robotin.svg" alt="Logo del sitio">
+              </a>
 
-        <a href="index.html" class="logo">
-          <img src="images/robotin.svg" alt="logodel sitio">
-        </a>
+              <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar" aria-expanded="false">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+              <button type="button" class="boton-menu hidden-md-up" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+              </button>
 
-        <button type="button" class="boton-buscar">Boton Buscar</button>
-        <button type="button" class="boton-menu">Boton Menu</button>
+              <form action="#" id="bloque-buscar" class="collapse">
+                  <div class="contenedor-bloque-buscar">
+                      <input type="text" placeholder="Buscar...">
+                      <input type="submit" value="Buscar">
+                  </div>
+              </form>
 
-        <form action="#" id="bloque.buscar">
-          <div class="contenedor-bloque-buscar">
-            <input type="text" placeholder="Buscar...">
-            <input type="submit" value="buscar">
-          </div>
-        </form>
-
-        <nav id="menu-principal">
-          <ul>
-            <li class="active"><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
+              <nav id="menu-principal" class="collapse">
+                  <ul>
+                      <li class="active"><a href="index.html">Inicio</a></li>
+                      <li><a href="nosotros.html">Nosotros</a></li>
+                      <li><a href="servicios.html">Servicios</a></li>
                       <li><a href="contacto.html">Contacto</a></li>
+                  </ul>
+              </nav>
 
-          </ul>
-        </nav>
           </div>
-  </header>
+      </header>
 
 
 
-        <div class="texto-encabezado">
-        <h1>Bienvenido a mi pagina web </h1>
-        <p>Creamos aplicaciones segun necesidades del cliente</p>
-        <a href="#">Ponte en contacto</a>
+        <div class="texto-encabezado text-xs-center">
+          <h1 class="display-4">Bienvenido a mi pagina web </h1>
+          <p>Creamos aplicaciones segun necesidades del cliente
+            Creamos aplicaciones segun necesidades del cliente
+            Creamos aplicaciones segun necesidades del cliente
+            Creamos aplicaciones segun necesidades del cliente
+          </p>
+          <a href="#" class="btn btn-primary">Ponte en contacto</a>
         </div>
 
         <div class="flecha-abajo">
@@ -69,7 +80,7 @@
             de relleno estándar de las industrias desde el año 1500,
             como por ejemplo Aldus PageMaker, el cual
           </p>
-          <img src="images/robot.svg" alt="agencia">
+          <img src="#" alt="agencia">
     </section>
 
     <section class="tu-mejor-eleccion">
