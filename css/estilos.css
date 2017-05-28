@@ -6,8 +6,8 @@ body {
   color: #111111; }
 
 .bienvenidos {
-  background: url("../images/mac.jpg") no-repeat center top;
-  color: #fff;
+  background: url("../images/papers.jpg") no-repeat center top;
+  color: #111111;
   background-size: cover;
   background-attachment: fixed !important;
   height: 100vh;
@@ -41,7 +41,7 @@ body {
       flex-wrap: wrap; }
 
 .encabezado .logo img {
-  width: 50px;
+  width: 39px;
   height: auto; }
 
 /*Estilos para el boton: buscar y menu*/
