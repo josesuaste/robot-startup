@@ -6,7 +6,7 @@ body {
   color: #494066; }
 
 .bienvenidos {
-  background: url("../images/white.jpg") no-repeat center top;
+  background: url("../images/#.jpg") no-repeat center top;
   color: #494066;
   background-size: cover;
   background-attachment: fixed !important;
@@ -41,7 +41,7 @@ body {
       flex-wrap: wrap; }
 
 .encabezado .logo img {
-  width: 40px;
+  width: 150px;
   height: auto; }
 
 /*Estilos para el boton: buscar y menu*/
